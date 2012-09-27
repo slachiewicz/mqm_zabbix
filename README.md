@@ -1,7 +1,9 @@
-[[Description]]
+Description
+===========
 Zabbix check for Websphere MQ
 
-[[Install]]
+Install
+===========
 * Copy files into @/root/zabbix/scripts@
 * Execute @config_generator/template_generator.sh@
 * Import generated template into zabbix
