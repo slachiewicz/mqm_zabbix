@@ -1,0 +1,18 @@
+        <trigger>
+          <description>Depth of $QUEUE exceeded</description>
+          <type>0</type>
+          <expression>{Template_WebsphereMQ:mqm.queue.depth[$QUEUE].last(0)}&gt;$DEPTH</expression>
+          <url></url>
+          <status>0</status>
+          <priority>2</priority>
+          <comments></comments>
+        </trigger>
+        <trigger>
+          <description>Problem with $QUEUE</description>
+          <type>0</type>
+          <expression>{Template_WebsphereMQ:mqm.queue.depth[$QUEUE].last(0)}=-1</expression>
+          <url></url>
+          <status>0</status>
+          <priority>4</priority>
+          <comments></comments>
+        </trigger>

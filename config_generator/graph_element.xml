@@ -1,0 +1,9 @@
+<graph_element item="Template_WebsphereMQ:mqm.queue.depth[$QUEUE]">
+              <drawtype>0</drawtype>
+              <sortorder>0</sortorder>
+              <color>009900</color>
+              <yaxisside>0</yaxisside>
+              <calc_fnc>2</calc_fnc>
+              <type>0</type>
+              <periods_cnt>5</periods_cnt>
+</graph_element>
